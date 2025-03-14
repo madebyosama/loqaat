@@ -1,0 +1,28 @@
+.header {
+  background-color: #fdf9e3;
+  padding: 9px 32px 9px 18px;
+  border-radius: 999px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: -5px;
+}
+
+.nav {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 8px;
+}
+
+.nav > a {
+  font-size: 14px;
+  line-height: 0px;
+}
+
+.nav > a:hover {
+  text-decoration: underline;
+}
