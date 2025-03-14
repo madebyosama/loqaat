@@ -1,10 +1,16 @@
 import type { Metadata } from 'next';
 import { Jost } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
 const jost = Jost({
   variable: '--font-jost',
   subsets: ['latin'],
+});
+
+const gambarino = localFont({
+  variable: '--font-gambarino',
+  src: './assets/fonts/gambarino.woff2',
 });
 
 export const metadata: Metadata = {
@@ -19,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${jost.variable}`}>{children}</body>
+      <body className={`${jost.variable} ${gambarino}`}>{children}</body>
     </html>
   );
 }
