@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './Header.module.css';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -16,15 +17,15 @@ export default function Header() {
         </a>
       </div>
       <div className={styles.nav}>
-        <a href='/'>home</a>
-        <a href='/'>about</a>
-        <a href='/'>services</a>
-        <a href='/'>projects</a>
-        <a href='/'>process</a>
-        <a href='/'>articles</a>
-        <a href='/'>team</a>
-        <a href='/'>tools</a>
-        <a href='/'>contact</a>
+        <Link href='/'>home</Link>
+        <Link href='/'>about</Link>
+        <Link href='/'>services</Link>
+        <Link href='/'>projects</Link>
+        <Link href='/'>process</Link>
+        <Link href='/'>articles</Link>
+        <Link href='/'>team</Link>
+        <Link href='/'>tools</Link>
+        <Link href='/'>contact</Link>
       </div>
     </div>
   );
