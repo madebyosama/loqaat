@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <a href='/'>
+        <Link href='/'>
           <Image
             aria-hidden
             src='/images/logo.png'
@@ -14,7 +14,7 @@ export default function Header() {
             width={81}
             height={29.81}
           />
-        </a>
+        </Link>
       </div>
       <div className={styles.nav}>
         <Link href='/'>home</Link>
