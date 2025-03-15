@@ -16,10 +16,10 @@ export default function Why() {
             <span className={styles.subtitle}>
               Iterative <span className={styles.dash}>—</span>{' '}
             </span>
-            We're not huge fans of long projects so we iterate quickly. We work
-            differently to other agencies by splitting work up into 30-day
+            We&apos;re not huge fans of long projects so we iterate quickly. We
+            work differently to other agencies by splitting work up into 30-day
             sprints. This keeps the momentum in a project, which is crucial if
-            you're looking to test an idea and develop and MVP quickly.
+            you&apos;re looking to test an idea and develop and MVP quickly.
           </div>
         </div>
         <div className={styles.reason}>
@@ -29,8 +29,8 @@ export default function Why() {
               Personable <span className={styles.dash}>—</span>{' '}
             </span>
             We like to keep our communication simple and transparent. Having a
-            small and friendly team means that you'll be working directly with
-            our finest minds who will be undertaking your project.
+            small and friendly team means that you&apos;ll be working directly
+            with our finest minds who will be undertaking your project.
           </div>
         </div>
         <div className={styles.reason}>
