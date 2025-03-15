@@ -1,0 +1,26 @@
+.services {
+  padding: 80px 0px 100px 150px;
+}
+
+.title {
+  font-family: 'gambarino';
+  font-size: 40px;
+  line-height: 80%;
+  margin: 0px 0px 40px 0px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1.75fr);
+}
+
+.service {
+  text-transform: lowercase;
+  line-height: 160%;
+  font-size: 14px;
+  display: block;
+}
+
+.service:hover {
+  text-decoration: underline;
+}

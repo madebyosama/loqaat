@@ -10,7 +10,7 @@ export default function Header() {
           <Image
             aria-hidden
             src='/images/logo.png'
-            alt='Globe icon'
+            alt='Loqaat Logo'
             width={81}
             height={29.81}
           />

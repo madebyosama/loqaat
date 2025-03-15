@@ -11,7 +11,7 @@ export default function Hero() {
         agency
       </div>
       <Link href='/contact' className={styles.button}>
-        get started
+        get in touch
       </Link>
     </div>
   );

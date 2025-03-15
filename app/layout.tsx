@@ -14,7 +14,7 @@ const gambarino = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Loqaat',
+  title: 'Loqaat - Marketing Agency',
   description: 'Your marketing partner.',
 };
 
