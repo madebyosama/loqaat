@@ -1,0 +1,58 @@
+.why {
+  padding: 80px 200px 100px 150px;
+}
+
+.title {
+  font-family: 'gambarino';
+  font-size: 40px;
+  line-height: 80%;
+  margin: 0px 0px 32px 0px;
+}
+
+.description {
+  text-transform: lowercase;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.reasons {
+  padding-top: 24px;
+  text-transform: lowercase;
+}
+
+.reason {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+.number {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  background-color: #ffdd00;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: #777;
+  line-height: 20px;
+}
+.subtitle {
+  color: black;
+  font-weight: 700;
+}
+
+.dash {
+  font-weight: 400;
+  color: black;
+}
+
+.text {
+  font-size: 14px;
+}
