@@ -5,9 +5,9 @@ export default function Why() {
     <div className={styles.why}>
       <div className={styles.title}>Why work with us?</div>
       <div className={styles.description}>
-        Before we started loqaat, we were freelance designers and developers. We
-        teamed up to combine our talents and bring high quality services to
-        businesses.
+        At Loqaat, we’re dedicated to helping you reach more people, boost your
+        sales, and elevate your brand awareness. Our approach is built around
+        three core principles:
       </div>
       <div className={styles.reasons}>
         <div className={styles.reason}>
@@ -16,10 +16,10 @@ export default function Why() {
             <span className={styles.subtitle}>
               Iterative <span className={styles.dash}>—</span>{' '}
             </span>
-            We&apos;re not huge fans of long projects so we iterate quickly. We
-            work differently to other agencies by splitting work up into 30-day
-            sprints. This keeps the momentum in a project, which is crucial if
-            you&apos;re looking to test an idea and develop and MVP quickly.
+            We value momentum. By breaking projects into focused 30-day sprints,
+            we ensure quick iterations and tangible progress. Whether you&#39;re
+            testing a new idea or developing a Minimum Viable Product (MVP), our
+            process keeps things moving efficiently.
           </div>
         </div>
         <div className={styles.reason}>
@@ -28,9 +28,10 @@ export default function Why() {
             <span className={styles.subtitle}>
               Personable <span className={styles.dash}>—</span>{' '}
             </span>
-            We like to keep our communication simple and transparent. Having a
-            small and friendly team means that you&apos;ll be working directly
-            with our finest minds who will be undertaking your project.
+            We believe in keeping communication clear, friendly, and
+            transparent. Working with our small, dedicated team means you&#39;ll
+            have direct access to the best minds handling your project—no
+            middlemen, just experts.
           </div>
         </div>
         <div className={styles.reason}>
@@ -39,10 +40,9 @@ export default function Why() {
             <span className={styles.subtitle}>
               innovative <span className={styles.dash}>—</span>{' '}
             </span>
-            Each of our team members is constantly learning and refining their
-            craft. We keep up to date with the latest trends and techniques in
-            our industry so that we can provide the best possible service for
-            our clients. We innovate constantly.
+            Our team is always learning and refining their skills to stay ahead
+            of the curve. We embrace the latest trends and techniques to deliver
+            cutting-edge solutions that get your brand marketed right.
           </div>
         </div>
       </div>
