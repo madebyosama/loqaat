@@ -1,0 +1,24 @@
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fdf9e3;
+  padding: 120px 0px 150px 0px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: 'gambarino';
+  font-size: 40px;
+  line-height: 80%;
+  margin: 40px 0px 60px 0px;
+}
+
+.button {
+  background-color: #ffdd00;
+  font-size: 14px;
+  padding: 14px 24px;
+  border-radius: 6px;
+  border: none;
+}
